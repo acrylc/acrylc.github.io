@@ -23,6 +23,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -74,7 +75,7 @@ body {
 .about-container span {
 	display: block;
 	margin: 10px 0;
-	font-size: 12px;
+	font-size: 12.5px;
 	line-height: 22px;
 	letter-spacing: 0.3px;
 }
@@ -84,15 +85,14 @@ body {
 	font-family: 'Gotham Bold', serif;
 	src: url('/fonts/gotham_bold.OTF') format('OTF');
 	font-weight: 800;
-	font-size: 9px;
+	font-size: 11px;
 	letter-spacing: 1px;
-	margin: 20px 0 0 0;
+	margin: 30px 0 0 0;
 }
 
 .about-container a,
 .about-container a:visited {
-	margin: 15px;
-	margin-top: 40px;
+	margin: 10px;
 	display: inline-block;
 	color: black;
 }
