@@ -50,31 +50,42 @@ body {
 .about-container {
 	width: 400px;
 	top: 50%;
-	margin-top:-250px;
+	margin-top:-275px;
 	left: 15%;
 	font-family: 'Libre Baskerville', serif;
 	position: relative;
 }
 
 .about-container h1 {
-	font-size: 50px;
+	font-size: 60px;
 	margin: 0 0 30px 0;
 	letter-spacing: 2px;
 }
 
 .about-container h2 {
-	color: rgb(150, 150, 150);
 	margin: 0 0 10px 0;
+	font-family: 'Avenir', sans-serif;
+	src: url('/fonts/avenir.TTF') format('TTF');
+	font-weight: 600;
+	font-size: 14px;
 }
 
 .about-container .quote {
-	color: rgb(170, 170, 170);
-	font-style: italic;
+	font-family: 'Avenir Next Condensed', sans-serif;
+	src: url('/fonts/avenir_next_condensed.TTF') format('TTF');
+	font-size: 13px;
+	letter-spacing: 0;
+	position: relative;
+	left: 50px;
+	top: 10px;
+	padding-bottom: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .about-container span {
 	display: block;
-	margin: 10px 0;
+	margin: 15px 0;
 	font-size: 12.5px;
 	line-height: 22px;
 	letter-spacing: 0.3px;
@@ -82,13 +93,22 @@ body {
 
 .about-container .skills {
 	text-transform: uppercase;
-	font-family: 'Gotham Bold', serif;
-	src: url('/fonts/gotham_bold.OTF') format('OTF');
-	font-weight: 800;
+	font-family: 'Avenir', serif;
+	src: url('/fonts/avenir.OTF') format('OTF');
+	font-weight: 900;
 	font-size: 11px;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	margin: 30px 0 0 0;
+	text-align: justify;
+	width: 100%;
 }
+
+.skills:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
 
 .about-container a,
 .about-container a:visited {
